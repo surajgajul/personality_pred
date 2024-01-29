@@ -1,0 +1,152 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {{applicant.personality}}
+    {{applicant.openness}}
+    {{applicant.neuroticism}}
+    {{applicant.conscientiousness}}
+    {{applicant.agreeableness}}
+    {{applicant.extraversion}}
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personality Traits</title>
+    <style>
+body {
+    font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/newscms/2018_39/2582131/180928-differing-personality-mc-1541.JPG');
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.trait-box {
+    position: relative;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+    overflow: hidden;
+    opacity: 0.9;
+}
+
+.trait-box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.2);
+    z-index: 1;
+}
+
+.trait-box:hover {
+    transform: scale(1.05);
+}
+
+.personality {
+    background-color: #4CAF50; /* Green */
+}
+
+.openness {
+    background-color: #2196F3; /* Blue */
+}
+
+.neuroticism {
+    background-color: #FFC107; /* Yellow */
+}
+
+.conscientiousness {
+    background-color: #FF5722; /* Orange */
+}
+
+.agreeableness {
+    background-color: #673AB7; /* Purple */
+}
+
+.extraversion {
+    background-color: #E91E63; /* Pink */
+}
+
+h4 {
+    margin: 0 0 15px;
+    font-size: 1.8em;
+    color: #333;
+}
+
+p {
+    margin: 0;
+    font-size: 1em;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="trait-box personality">
+            <h4>Personality:{{applicant.personality}}</h4>
+            <p>{{var}}</p>
+        </div>
+
+        <div class="trait-box openness">
+            <h4>Openness:{{applicant.openness}}</h4>
+            <p>Openness refers to the degree of creativity, imagination, and willingness to experience new things. Individuals high in openness tend to be more adventurous, curious, and open-minded.</p>
+        </div>
+
+        <div class="trait-box neuroticism">
+            <h4>Neuroticism:{{applicant.neuroticism}}</h4>
+            <p>Neuroticism is a personality trait associated with emotional stability and the ability to handle stress. Individuals high in neuroticism may experience higher levels of negative emotions such as anxiety, moodiness, and irritability.</p>
+        </div>
+
+        <div class="trait-box conscientiousness">
+            <h4>Conscientiousness:{{applicant.conscientiousness}}</h4>
+            <p>Conscientiousness reflects the degree of organization, responsibility, and dependability in an individual. Conscientious individuals are often thorough, diligent, and reliable in their actions and work.</p>
+        </div>
+
+        <div class="trait-box agreeableness">
+            <h4>Agreeableness:{{applicant.agreeableness}}</h4>
+            <p>Agreeableness measures the level of cooperation, empathy, and friendliness in a person. Individuals high in agreeableness tend to be considerate, compassionate, and cooperative in social interactions.</p>
+        </div>
+
+        <div class="trait-box extraversion">
+            <h4>Extraversion:{{applicant.extraversion}}</h4>
+            <p>Extraversion is a trait associated with sociability, assertiveness, and energy levels in social situations. Extraverted individuals are often outgoing, talkative, and seek social engagement.</p>
+        </div>
+    </div>
+    </br>
+    <button style="color:white; padding: 10px 20px; background-color: rgba(132, 86, 102, 0.7); border: none; border-radius: 5px; cursor: pointer; transition: background-color 0.3s ease-in-out;" onclick="window.location.href='http://127.0.0.1:8000/'">Return to Home</button>
+</body>
+</html>
+
