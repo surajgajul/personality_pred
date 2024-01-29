@@ -13,7 +13,7 @@ Offering a software or model that empowers job seekers to analyze their resumes,
 In summary, our project aims to revolutionize the recruitment landscape by incorporating advanced technologies to enhance the accuracy and efficiency of candidate assessments for both recruiters and job seekers.
 
 Screenshots:
-![Personality Traits and 5 more pages - Personal - Microsoft​ Edge 1_29_2024 5_39_27 PM](https://github.com/surajgajul/personality_pred/assets/95496170/1a60bfd2-4d10-45c6-ac4a-169b8876bf49)
+![Personality Traits and 5 more pages - Personal - Microsoft​ Edge 1_29_2024 5_39_27 PM](https://github.com/surajgajul/personality_pred/assets/95496170/1ed08951-7bf2-44c6-8275-3a2ce4efbd13)
 
 ![Personality Traits and 5 more pages - Personal - Microsoft​ Edge 1_29_2024 5_38_03 PM](https://github.com/surajgajul/personality_pred/assets/95496170/e6e307d3-98c6-4908-8435-73344ea86319)
 
