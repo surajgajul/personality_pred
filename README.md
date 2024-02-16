@@ -1,4 +1,4 @@
-**Personality Prediction through Machine Learning and Deep Learning**
+**Personality Prediction through Machine Learning**
 
 The primary goal of our project is to establish an effective screening system that aids companies in streamlining their recruitment processes. Our model serves as a valuable tool for companies to efficiently categorize and evaluate job applicants by analyzing scores obtained from psychometric tests and questionnaires. The key objectives of our project include:
 
